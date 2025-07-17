@@ -7,7 +7,7 @@
 
 .body {
   min-height: 100vh;
-  background-image: url('assets/img/TC05.png');
+  background-image: url('/assets/img/TC05.png');
   background-size: cover;
   background-position: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
