@@ -45,22 +45,22 @@
 /* Specific positions mimicking the uploaded image */
 #item1 {
   top: 10%;
-  left: 30%;
+  left: 15%;
 }
 
 #item2 {
   top: 40%;
-  left: 30%;
+  left: 10%;
 }
 
 #item3 {
   top: 20%;
-  right: 20%;
+  right: 50%;
 }
 
 #item4 {
-  top: 45%;
-  right: 20%;
+  top: 50%;
+  right: 55%;
 }
 
 /* Footer */
