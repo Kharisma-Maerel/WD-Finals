@@ -7,7 +7,7 @@
 
 .body {
   min-height: 100vh;
-  background-image: url('https://i.pinimg.com/1200x/f8/ef/53/f8ef53724d09892c6be63ead89240fa5.jpg');
+  background-image: url('/assets/img/TC05.png');
   background-size: cover;
   background-position: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -34,7 +34,7 @@
 }
 
 .item-button img {
-  width: 120px;
+  width: 190px;
   transition: transform 0.3s ease;
 }
 
