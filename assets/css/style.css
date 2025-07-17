@@ -7,7 +7,8 @@
 
 .body {
   min-height: 100vh;
-  background-image: url('../img/TC05.png'); /* Update with your actual file */
+  .body {
+  background-image: url('assets/img/TC05.png');
   background-size: cover;
   background-position: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -17,28 +18,50 @@
   align-items: center;
 }
 
-/* Main container - grid layout */
+/* Main container for buttons */
 .main-container {
   flex: 1;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
-  place-items: center;
+  position: relative;
   width: 100%;
-  max-width: 900px;
-  margin: auto;
-  min-height: 70vh;
+  max-width: 1000px;
+  height: 80vh;
+  margin: 20px 0;
+}
+
+/* Button positioning */
+.item-button {
+  position: absolute;
+  cursor: pointer;
 }
 
 .item-button img {
-  width: 220px;
-  border-radius: 12px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 180px;       /* Increased size */
+  transition: transform 0.3s ease;
 }
 
 .item-button:hover img {
   transform: scale(1.15);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Specific positions for better visual match */
+#item1 {
+  top: 15%;
+  left: 25%;
+}
+
+#item2 {
+  top: 45%;
+  left: 25%;
+}
+
+#item3 {
+  top: 10%;
+  right: 20%;
+}
+
+#item4 {
+  top: 50%;
+  right: 18%;
 }
 
 /* Footer */
@@ -48,4 +71,5 @@
   text-align: center;
   padding: 20px;
   font-size: 14px;
+}
 }
