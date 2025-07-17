@@ -1,0 +1,73 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  min-height: 100vh;
+  background-image: url('https://i.pinimg.com/1200x/f8/ef/53/f8ef53724d09892c6be63ead89240fa5.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Main container for buttons */
+.main-container {
+  flex: 1;
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  height: 80vh;
+  margin: 20px 0;
+}
+
+/* Button positioning */
+.item-button {
+  position: absolute;
+  cursor: pointer;
+}
+
+.item-button img {
+  width: 120px;
+  transition: transform 0.3s ease;
+}
+
+.item-button:hover img {
+  transform: scale(1.1);
+}
+
+/* Specific positions mimicking the uploaded image */
+#item1 {
+  top: 10%;
+  left: 30%;
+}
+
+#item2 {
+  top: 40%;
+  left: 30%;
+}
+
+#item3 {
+  top: 20%;
+  right: 20%;
+}
+
+#item4 {
+  top: 45%;
+  right: 20%;
+}
+
+/* Footer */
+.sitefooter2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
