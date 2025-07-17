@@ -7,8 +7,7 @@
 
 .body {
   min-height: 100vh;
-  .body {
-  background-image: url('assets/img/TC05.png');
+  background-image: url('https://i.pinimg.com/1200x/9a/9c/26/9a9c268ec9a60685c6b22905acf0e581.jpg');
   background-size: cover;
   background-position: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -71,5 +70,4 @@
   text-align: center;
   padding: 20px;
   font-size: 14px;
-}
 }
