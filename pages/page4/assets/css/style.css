@@ -1,0 +1,114 @@
+/* Header Styling */
+.header2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: #b5e1f0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.header2 .logo {
+  max-width: 80px;
+}
+
+.header2 .center-box {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.header2 .center-box a,
+.header2 .rightbox a {
+  padding: 10px 18px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.header2 .center-box a:hover,
+.header2 .rightbox a:hover {
+  background-color: white;
+  color: #fbd7a2;
+}
+
+.header2 .center-box a.active {
+  background-color: white;
+  color: #b5e1f0;
+}
+
+/* Page Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('/assets/img/finalbg.jpg');
+  margin: 0;
+}
+
+.projects-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.projects-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.3);
+}
+
+.project-card h2 {
+  margin: 0 0 10px;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.project-card a:hover {
+  background-color: #555;
+}
+
+.sitefooter2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
